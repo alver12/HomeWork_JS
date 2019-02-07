@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW1</title>
+</head>
+
+<body>
+
+<div>
+    <div>
+        <label><b>1.</b>Choose phone color:</label>
+
+        <input type="text" id="color" placeholder="black, red, white, silver, gold" onfocus="colors();">
+    </div>
+
+    <div id='pict'>
+
+    </div>
+    <div>
+        <br>
+        <b>2.</b>Choose phone memory<br>
+            <input type="radio" name="memory" value="64" onclick="memorys(64);"> 64 Gb<br>
+            <input type="radio" name="memory" value="128" onclick="memorys(128);"> 128 Gb<br>
+            <input type="radio" name="memory" value="512" onclick="memorys(512);"> 512 Gb<br>
+            <input type="radio" name="memory" value="1000" onclick="memorys(1000);"> 1000 Gb<br>
+        <br>
+    </div>
+    <div id='prc'>
+
+    </div>
+</div>
+
+<script src="homework1_input+getElementById.js"></script>
+
+</body>
+
+</html>
